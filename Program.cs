@@ -1,4 +1,7 @@
-﻿namespace Lab3_4
+﻿using System;
+using System.Collections.Generic;
+
+namespace Lab3_4
 {
     internal class Program
     {
@@ -46,6 +49,50 @@
             for (int i = 0; i < Z.Count; i++)
             {
                 Console.WriteLine(Z[i]);
+            }
+
+            // Lista de películas
+            var listaPeliculas = new ListaPeliculas();
+
+            Console.WriteLine("\n--- Registro de películas ---");
+            Console.WriteLine("[ La pelicula ingresada esta limitada a un maximo de 24h ]");
+            Console.Write("¿Cuántas películas desea ingresar?\n");
+            if (int.TryParse(Console.ReadLine(), out int cantidad) && cantidad > 0)
+            {
+                for (int i = 0; i < cantidad; i++)
+                {
+                    Console.WriteLine($"\nPelícula #{i + 1}:");
+                    Console.Write("Nombre: ");
+                    string nombre = Console.ReadLine() ?? "";
+
+                    Console.Write("Horas: ");
+                    int horas = LeerEntero();
+
+                    Console.Write("Minutos: ");
+                    int minutos = LeerEntero();
+
+                    Console.Write("Segundos: ");
+                    int segundos = LeerEntero();
+
+                    listaPeliculas.AgregarPelicula(nombre, horas, minutos, segundos);
+                }
+
+                listaPeliculas.MostrarPeliculasOrdenadas();
+            }
+            else
+            {
+                Console.WriteLine("Cantidad inválida.");
+            }
+        }
+
+        // Método auxiliar para leer enteros de consola
+        static int LeerEntero()
+        {
+            while (true)
+            {
+                if (int.TryParse(Console.ReadLine(), out int valor) && valor >= 0)
+                    return valor;
+                Console.Write("Valor inválido. Intente nuevamente: ");
             }
         }
     }

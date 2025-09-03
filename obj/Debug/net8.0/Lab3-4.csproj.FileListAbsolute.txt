@@ -1,0 +1,15 @@
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\bin\Debug\net8.0\Lab3-4.exe
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\bin\Debug\net8.0\Lab3-4.deps.json
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\bin\Debug\net8.0\Lab3-4.runtimeconfig.json
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\bin\Debug\net8.0\Lab3-4.dll
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\bin\Debug\net8.0\Lab3-4.pdb
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.AssemblyInfoInputs.cache
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.AssemblyInfo.cs
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.csproj.CoreCompileInputs.cache
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.sourcelink.json
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.dll
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\refint\Lab3-4.dll
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.pdb
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\Lab3-4.genruntimeconfig.cache
+C:\Proyecto-en-Git\Base-de-Datos-Clase\Clase semana03\Lab3\obj\Debug\net8.0\ref\Lab3-4.dll
